@@ -1,7 +1,7 @@
 //Base Area + (1/2) * Perimeter of Base * Slant Height. 
 
 import java.lang.*;
-class Pyramid extends Shape{
+class Pyramid extends Shape implements VolumeInterface{
 	public Pyramid(double base, double height){
 		super(base,height,0,0);
 	}

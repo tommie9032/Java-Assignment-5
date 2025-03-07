@@ -1,5 +1,5 @@
 import java.lang.*;
-class Cube extends Shape{
+class Cube extends Shape implements VolumeInterface{
 	public Cube(double side){
 
 		super(side,0,0,6);

@@ -1,6 +1,6 @@
 //Sphere.java
 
-class Sphere extends Shape{
+class Sphere extends Shape implements VolumeInterface{
 	public Sphere(double side){
 		super(side,0,0,0);
 	}

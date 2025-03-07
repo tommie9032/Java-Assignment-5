@@ -1,6 +1,6 @@
 //Cylinder.java
 import java.lang.*;
-class Cylinder extends Shape{
+class Cylinder extends Shape implements VolumeInterface{
 	public Cylinder(double radius , double height){
 		super(radius,height,0,0);
 	}
